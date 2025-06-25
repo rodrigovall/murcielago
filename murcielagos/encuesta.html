@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Encuesta sobre Murciélagos</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/script.js">
+  <link rel="icon" type="image/png" href="/favicon-titulo.ico" />
+</head>
+<body>
+
+  <div class="boton-principal">
+    <a href="/index.html">🏠 Página principal</a>
+  </div>
+
+  <br><br><br>
+
+  <div class="menu">
+    
+    
+  <div class="encuesta">
+    <h2>Encuesta: ¿Cuánto sabés sobre los murciélagos?</h2>
+    <form id="formEncuesta">
+      <!-- Preguntas -->
+      <div class="pregunta" id="p1">
+        <p>1. ¿Qué tipo de animal es un murciélago?</p>
+        <label><input type="radio" name="p1" value="Mamífero"> Mamífero</label><br>
+        <label><input type="radio" name="p1" value="Ave"> Ave</label><br>
+        <label><input type="radio" name="p1" value="Reptil"> Reptil</label><br>
+      </div>
+
+      <div class="pregunta" id="p2">
+        <p>2. ¿Qué comen la mayoría de los murciélagos?</p>
+        <label><input type="radio" name="p2" value="Frutas e insectos"> Frutas e insectos</label><br>
+        <label><input type="radio" name="p2" value="Sangre humana"> Sangre humana</label><br>
+        <label><input type="radio" name="p2" value="Hierba"> Hierba</label><br>
+      </div>
+
+      <div class="pregunta" id="p3">
+        <p>3. ¿Dónde duermen los murciélagos durante el día?</p>
+        <label><input type="radio" name="p3" value="Cuevas y árboles"> Cuevas y árboles</label><br>
+        <label><input type="radio" name="p3" value="En el suelo"> En el suelo</label><br>
+        <label><input type="radio" name="p3" value="En el cielo"> En el cielo</label><br>
+      </div>
+
+      <div class="pregunta" id="p4">
+        <p>4. ¿Los murciélagos son ciegos?</p>
+        <label><input type="radio" name="p4" value="No, ven bien"> No, ven bien</label><br>
+        <label><input type="radio" name="p4" value="Sí, completamente ciegos"> Sí, completamente ciegos</label><br>
+        <label><input type="radio" name="p4" value="Solo de día"> Solo de día</label><br>
+      </div>
+
+      <div class="pregunta" id="p5">
+        <p>5. ¿Qué sistema usan para orientarse en la oscuridad?</p>
+        <label><input type="radio" name="p5" value="Ecolocación"> Ecolocación</label><br>
+        <label><input type="radio" name="p5" value="Brújula interna"> Brújula interna</label><br>
+        <label><input type="radio" name="p5" value="Rayos X"> Rayos X</label><br>
+      </div>
+
+      <div class="pregunta" id="p6">
+        <p>6. ¿Los murciélagos son importantes para el ecosistema?</p>
+        <label><input type="radio" name="p6" value="Sí, polinizan y controlan plagas"> Sí, polinizan y controlan plagas</label><br>
+        <label><input type="radio" name="p6" value="No, no hacen nada"> No, no hacen nada</label><br>
+        <label><input type="radio" name="p6" value="Solo molestan"> Solo molestan</label><br>
+      </div>
+
+      <div class="pregunta" id="p7">
+        <p>7. ¿Qué hacen muchos murciélagos durante el invierno?</p>
+        <label><input type="radio" name="p7" value="Hibernan"> Hibernan</label><br>
+        <label><input type="radio" name="p7" value="Migran al norte"> Migran al norte</label><br>
+        <label><input type="radio" name="p7" value="Duermen todo el año"> Duermen todo el año</label><br>
+      </div>
+
+      <div class="pregunta" id="p8">
+        <p>8. ¿Cuánto tiempo puede vivir un murciélago?</p>
+        <label><input type="radio" name="p8" value="Hasta 30 años"> Hasta 30 años</label><br>
+        <label><input type="radio" name="p8" value="1 año"> 1 año</label><br>
+        <label><input type="radio" name="p8" value="5 años"> 5 años</label><br>
+      </div>
+
+      <div class="pregunta" id="p9">
+        <p>9. ¿Todos los murciélagos chupan sangre?</p>
+        <label><input type="radio" name="p9" value="No, solo algunos"> No, solo algunos</label><br>
+        <label><input type="radio" name="p9" value="Sí, todos"> Sí, todos</label><br>
+        <label><input type="radio" name="p9" value="Ninguno"> Ninguno</label><br>
+      </div>
+
+      <div class="pregunta" id="p10">
+        <p>10. ¿Qué tamaño pueden tener las alas del murciélago más grande?</p>
+        <label><input type="radio" name="p10" value="1.5 metros"> 1.5 metros</label><br>
+        <label><input type="radio" name="p10" value="15 cm"> 15 cm</label><br>
+        <label><input type="radio" name="p10" value="50 cm"> 50 cm</label><br>
+      </div>
+
+      <button type="submit">Enviar respuestas</button>
+    </form>
+
+    <div id="estadisticas"></div>
+  </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

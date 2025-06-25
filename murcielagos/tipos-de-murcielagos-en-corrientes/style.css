@@ -1,0 +1,66 @@
+#carrusel {
+    max-width: 600px;
+    margin: 30px auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background: rgb(255, 232, 232);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  #carrusel img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  #carrusel p {
+    font-size: 16px;
+    color: #333;
+    min-height: 60px; /* Para que no salte mucho el texto */
+  }
+  
+  #btnSiguiente {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  #btnSiguiente:hover {
+    background-color: #0056b3;
+  }
+
+  #btnAnterior:hover {
+    background-color: #0056b3;
+
+  }
+  
+  #btnAnterior {
+    margin-right: 10px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+
+
+
+  #imagen {
+    display: block;
+    margin: 0 auto;         /* centra horizontalmente */
+    width: 500px;           /* o el tamaño que necesites */
+    height: 500px;          /* mantené la proporción o ajustá según tu diseño */
+    object-fit: cover;      /* mantiene el recorte estético si no coinciden las proporciones exactas */
+    border-radius: 10px;    /* opcional: bordes redondeados */
+  }

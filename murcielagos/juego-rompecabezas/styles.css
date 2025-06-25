@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #0e0e0e;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+h1 {
+  margin-bottom: 0.5rem;
+}
+
+p {
+  margin-bottom: 2rem;
+}
+
+.contenedor {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.pieza {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background-image: url('/murcielago.png');
+  background-size: 300% 300%;
+  background-repeat: no-repeat;
+  border: 1px solid #444;
+  border-radius: 8px;
+  cursor: grab;
+  transition: transform 0.2s ease;
+}
+
+.pieza:active {
+  transform: scale(1.05);
+}
+
+/* Responsive para pantallas pequeñas */
+@media (max-width: 600px) {
+  .contenedor {
+    max-width: 95vw;
+    gap: 0.5rem;
+  }
+}
